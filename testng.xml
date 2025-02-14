@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Factorial Calculator Suite">
+    <test name="Factorial Calculator Tests">
+        <classes>
+            <class name="FactorialCalculatorTest"/>
+        </classes>
+    </test>
+</suite>
