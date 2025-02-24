@@ -50,6 +50,12 @@ public class MainPageTest {
         assertTrue(mainPageActions.checkResultPopup(), "Всплывающее окно не появилось");
     }
 
+    @Test
+    @DisplayName("Проверка placeholders")
+    public void testPlaceholders() {
+        assertTrue(mainPageActions.checkPlaceholders(), "Некорректные плейсхолдеры!");
+    }
+
     @AfterAll
     public static void tearDown() {
         WebDriverSingleton.quitDriver();

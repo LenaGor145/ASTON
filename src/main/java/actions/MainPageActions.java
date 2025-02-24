@@ -38,4 +38,8 @@ public class MainPageActions {
     public boolean checkResultPopup() {
         return mainPage.isResultPopupDisplayed();
     }
+
+    public boolean checkPlaceholders() {
+        return mainPage.verifyPlaceholdersForEachOption();
+    }
 }
